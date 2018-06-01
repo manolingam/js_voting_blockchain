@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="secondStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> 
+    <title>My Voting Portal</title>
+</head>
+<body>
+        <h1 style="text-align: center" id="title">Welcome to Voting Portal.</h1>
+        <div class="main">
+            <table id="table" align="center" cellpadding="20" border="1">
+                <tr>
+                    <th style="color: tomato"><h3>CANDIDATES</h3></th>
+                    <th style="color: tomato"><h3>TOTAL VOTES</h3></th>
+                </tr>
+                <tr>
+                    <th>Ram</th>
+                    <th id="Ram">0</th>
+                </tr>
+                <tr>
+                    <th>Stark</th>
+                    <th id="Stark">0</th>
+                </tr>
+            </table>
+            <div class="radioButtons">
+                    <input type="radio" id="Ram" name="radio" value="Ram" checked="checked">Vote for Ram
+                    <input type="radio" id="Stark" name="radio" value="Stark">Vote for Stark<br>
+                    <input type="password" id="password" placeholder="Enter your key to vote!"><br>
+                    <button id="button" onclick="voteSubmit()">Vote</button>
+            </div>  
+        </div>    
+            <div id="border"></div>                  
+            <h2>VOTE DETAILS</h2>
+            <h3 id="blockTitle">PREVIOUS BLOCK</h3>
+            <h5 id="previousBlock">Block number :</h5>
+            <p id="previousVote">Previous vote :</p>
+            <p id="hash">Hash :</p>
+            <h3 id="blockTitle">CURRENT BLOCK</h3>
+            <h5 id="currentBlock">Block number :</h5>
+            <p id="currentVote">Current Vote :</p>
+            <p id="currentHash">Current Hash :</p>
+            <p id="previousHash">Previous Hash :</p>
+    <script type="text/javascript" src="secondBundle.js"></script>
+</body>
+</html>

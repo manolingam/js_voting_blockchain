@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> 
+    <link rel="stylesheet" href="indexStyle.css">
+    <title>Blockchain Voting</title>
+</head>
+<body>
+    <h1>Welcome to the Next Generation of Blockchain Voting<span>...</span></h1>
+    <h2>How this simulated voting works?</h2>
+    <div>
+        <ul>
+            <li>Each Vote is considered as a block.</li>
+            <li>Each block will have a unique hash generated and is linked to it.</li>
+            <li>Next block will only be valid if the previous block's hash matches with the current block.</li>
+            <li>Similar blocks will be added continuously developing a chain of blocks called Blockchain.</li>
+            <li>If someone tampers with the registered votes, the corresponding block's hash will be changed which in turn will not match with the previous and next block.</li>
+            <li>This causes the entire Blockchain to get broken.</li>
+        </ul>
+    </div>
+    <h2>Instructions.</h2>
+        <ol>
+            <li>You can generate 10 keys.</li>
+            <li>Each key can only be used once to vote.</li>
+            <li>You can vote for only one person.</li>
+        </ol>    
+    <p>You will need unique keys to vote. So generate it from the link below and note it down.</p>
+    <h3 id="title">Generate your keys to vote..</h3>
+    <h3><button id="keys" onclick="generateKeys()">Generate Keys</button></h3>
+    <h3><button id="next" onclick="nextPage()">Next</button></h3>
+    <script type="text/javascript" src="indexBundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body{
+    font-family: 'Acme', sans-serif;
+    background-image: url(background.png);
+    background-size: cover;
+}
+
+.main{
+    text-align: center;
+}
+
+#title{
+    color: darkslateblue;
+}
+
+.radioButtons{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#password{
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#button{
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+    padding: 10px 40px;
+    box-shadow: 1px 1px;
+    cursor: pointer;
+    float:center;
+    background: darkslateblue;
+    color:aliceblue;
+}
+
+#border{
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 25px;
+}
+
+h2{
+    color: tomato;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#blockTitle{
+    color: darkslateblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+}
+
+#hash, #currentHash, #previousHash{
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    background-color: tomato;
+    color:aliceblue;
+}
+
+h5{
+    font-size: 20px;
+    text-decoration: blue underline;
+}
