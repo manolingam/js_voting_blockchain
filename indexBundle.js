@@ -28,7 +28,7 @@ global.nextPage = function(){
         window.location.replace("secondIndex.html")
         window.localStorage.setItem("keysValue",JSON.stringify(keys))
         //console.log(keys)
-        console.log(JSON.parse(window.localStorage.getItem("keysValue")))
+        //console.log(JSON.parse(window.localStorage.getItem("keysValue")))
     }
 }
 
