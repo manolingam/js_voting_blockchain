@@ -87,7 +87,7 @@ global.voteSubmit = function(){
                         window.localStorage.setItem("Ram",JSON.stringify(Ram))
                         window.localStorage.setItem("Stark", JSON.stringify(Stark))
                         window.localStorage.setItem("Blocks",JSON.stringify(blocks))
-                        window.location.replace("http://127.0.0.1:5500/finalIndex.html")
+                        window.location.replace("finalIndex.html")
                     }
                     break
                 }else if(i==keys.length-1){
