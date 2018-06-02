@@ -23,7 +23,7 @@ global.nextPage = function(){
     if(keys.length == 0){
         window.alert("Generate your keys first!")
     }else{
-        window.location.replace("http://127.0.0.1:5500/secondIndex.html")
+        window.location.replace("secondIndex.html")
         window.localStorage.setItem("keysValue",JSON.stringify(keys))
         //console.log(keys)
         //console.log(JSON.parse(window.localStorage.getItem("keysValue")))
